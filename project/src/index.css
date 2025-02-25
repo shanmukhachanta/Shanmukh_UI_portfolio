@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply hover:text-gray-300 transition-colors duration-200;
+  }
+}
