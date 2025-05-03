@@ -1,19 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Menu, X, Camera, Mail, Phone, Instagram } from 'lucide-react';
-import restAll from "../../2.jpg";
-import cover from "../../credits@Baricci_SA-44.jpg";
-import Cp from "../../_DSC9257 (2).jpg";
+import restAll from "../../credits@baricci_SA_LOW_RES-017.jpg";
+import cover from "../../Credits@baricci_MP-8229.jpg";
+import Cp from "../../cpg.jpg";
 import CP2 from "../../credits@Baricci_SA (1).jpg";
-import dvlm from "../../IMG_0583 (1).jpg";
-import kailash from "../../IMG_0345.jpg";
+import dvlm from "../../MAP05446.jpg";
+import kailash from "../../ka.jpg";
 import HKA from "../../Diljit.jpg";
-import Jasleen from "../../Jasleen royal.jpg";
-// Make sure this path is correct - it should point to where Work.jsx/tsx is located
-// If Work.jsx is in the same directory as App.jsx, use:
+import Jasleen from "../../credits@baricci_mp--7.jpg";
+
 import Work from './Work';
-// If Work.jsx is in a subdirectory like 'components', use:
-// import Work from './components/Work';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -27,7 +24,7 @@ function App() {
             <div className="flex items-center justify-between h-20">
               <div className="flex items-center space-x-2">
                 <Camera className="w-8 h-8" />
-                <span className="text-2xl font-bold">Shanmukh Achanta</span>
+                <span className="text-2xl font-bold">ECHO FILMERS</span>
               </div>
               
               {/* Desktop Menu */}
@@ -97,8 +94,8 @@ function App() {
                       restAll,
                       CP2,
                       dvlm,
+                      HKA,
                       Jasleen,
-                      HKA
                     ].map((url, index) => (
                       <div key={index} className="aspect-square overflow-hidden rounded-lg">
                         <img 
@@ -124,16 +121,16 @@ function App() {
                       />
                     </div>
                     <div>
-                      <h2 className="text-4xl font-bold mb-6">About Me</h2>
+                      <h2 className="text-4xl font-bold mb-6">About Us</h2>
                       <p className="text-lg text-gray-300 mb-6">
-                        Specializing in concert and event photography, I bring years of experience capturing 
+                        Specializing in concert and event photography, we bring years of experience capturing 
                         the energy and excitement of live performances. From intimate venues to stadium shows, 
-                        I focus on immortalizing those epic moments that define live entertainment.
+                        we focus on immortalizing those epic moments that define live entertainment.
                       </p>
                       <p className="text-lg text-gray-300">
-                        Using state-of-the-art equipment and techniques, I ensure every shot tells the story 
+                        Using state-of-the-art equipment and techniques, we ensure every shot tells the story 
                         of your event. Whether it's the intensity of the performers, the scale of the production, 
-                        or the energy of the crowd, I capture it all in stunning detail.
+                        or the energy of the crowd, we capture it all in stunning detail.
                       </p>
                     </div>
                   </div>
@@ -147,22 +144,21 @@ function App() {
                   <div className="flex justify-center">
                     <div className="space-y-8 max-w-md w-full">
                       <div>
-                        <h3 className="text-2xl font-semibold mb-4 text-center">Contact Information</h3>
                         <div className="space-y-4">
                           <div className="flex items-center space-x-4 justify-center">
                             <Phone className="w-6 h-6" />
-                            <span>+91 9849665879</span>
+                            <span>+91 8121021037</span>
                           </div>
                           <div className="flex items-center space-x-4 justify-center">
                             <Mail className="w-6 h-6" />
-                            <span>shanmukhachanta1@gmail.com</span>
+                            <span>manishpurohit4321@gmail.com</span>
                           </div>
                         </div>
                       </div>
                       <div>
-                        <h3 className="text-2xl font-semibold mb-4 text-center">Follow Me</h3>
+                        <h3 className="text-2xl font-semibold mb-4 text-center">Follow Us</h3>
                         <div className="flex justify-center space-x-4">
-                          <a href="https://www.instagram.com/shanmukh.achanta/" className="hover:text-gray-300">
+                          <a href="https://www.instagram.com/echofilmerss/" className="hover:text-gray-300">
                             <Instagram className="w-6 h-6" />
                           </a>
                         </div>
@@ -173,14 +169,13 @@ function App() {
               </section>
             </>
           } />
-          {/* Make sure the Work route is defined correctly */}
           <Route path="/work" element={<Work />} />
         </Routes>
 
         {/* Footer */}
         <footer className="bg-gray-900 py-8">
           <div className="max-w-7xl mx-auto px-4 text-center">
-            <p>&copy; 2025 Shanmukh Achanta. All rights reserved.</p>
+            <p>&copy; 2025 ECHO FILMERS. All rights reserved.</p>
           </div>
         </footer>
       </div>
