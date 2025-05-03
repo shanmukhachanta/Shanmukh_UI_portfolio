@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Menu, X, Camera, Mail, Phone, Instagram } from 'lucide-react';
-import restAll from "../../credits@baricci_SA_LOW_RES-017.jpg";
+import restAll from "../../KFxHS_B2-17.jpg";
 import cover from "../../Credits@baricci_MP-8229.jpg";
 import Cp from "../../cpg.jpg";
 import CP2 from "../../credits@Baricci_SA (1).jpg";
