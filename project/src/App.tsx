@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Menu, X, Camera, Mail, Phone, Instagram } from 'lucide-react';
-import restAll from "../../KFxHS_B2-17.jpg";
+// import restAll from "../../KFxHS_B2-17.jpg";
 import cover from "../../Credits@baricci_MP-8229.jpg";
 import Cp from "../../cpg.jpg";
 import CP2 from "../../credits@Baricci_SA (1).jpg";
@@ -91,7 +91,7 @@ function App() {
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {[
                       kailash,
-                      restAll,
+                      // restAll,
                       CP2,
                       dvlm,
                       HKA,
