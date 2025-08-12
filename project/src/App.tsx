@@ -4,7 +4,7 @@ import { useState, useEffect, useRef, useMemo } from "react";
 import { Camera, Mail, Phone, Instagram} from 'lucide-react';
 import { motion, useInView } from "framer-motion";
 import SlidingCategoryCards from "./sliding-category-cards";
-import logo from "./assets/Optimized/logo2.png";
+import logo from "./assets/Optimized/logo2.webp";
 
 // Import existing images from correct folders
 import cover from "./assets/Optimized/Concerts/Credits@baricci_MP-7985.webp";
