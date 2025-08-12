@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 import { Music, Zap, Star } from 'lucide-react';
 
 // Import images
-import kailash from "./assets/Optimized/Concerts/credits_barrici@SA-04.webp";
-import RAP2488 from "./assets/Optimized/Concerts/untitled-1.webp";
-import MAP00594 from "./assets/Optimized/Nightlife/MAP00594.webp";
+import kailash from "./assets/optimized/Concerts/credits_barrici@SA-04.webp";
+import RAP2488 from "./assets/optimized/Concerts/untitled-1.webp";
+import MAP00594 from "./assets/optimized/Nightlife/MAP00594.webp";
 
 interface CategoryCard {
   key: string;

@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 
-const OptimizedImage = ({ 
+const optimizedImage = ({ 
   src, 
   alt, 
   className = "", 
@@ -62,4 +62,4 @@ const OptimizedImage = ({
   );
 };
 
-export default OptimizedImage;
+export default optimizedImage;
