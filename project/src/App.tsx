@@ -7,10 +7,10 @@ import SlidingCategoryCards from "./sliding-category-cards";
 import logo from "./assets/images/logo2.png";
 
 // Import existing images from correct folders
-import cover from "./assets/images/concerts/Credits@baricci_MP-7985.jpg";
-import dvlm from "./assets/images/concerts/MAP05446.jpg";
-import kailash from "./assets/images/concerts/ka.jpg";
-import Jasleen from "./assets/images/concerts/credits@baricci_mp--7.jpg";
+import cover from "./assets/images/Concerts/Credits@baricci_MP-7985.jpg";
+import dvlm from "./assets/images/Concerts/MAP05446.jpg";
+import kailash from "./assets/images/Concerts/ka.jpg";
+import Jasleen from "./assets/images/Concerts/credits@baricci_mp--7.jpg";
 import CP1 from "./assets/images/Concerts/Credits@baricci_SA13.jpg";
 import CP2 from "./assets/images/Concerts/Credits@baricci_SA17.jpg";
 import CP3 from "./assets/images/Concerts/credits_barrici@SA-04.jpg";
@@ -21,52 +21,52 @@ import concertVideo1 from "./assets/videos/Ani-Quake.mov";
 import corporateVideo1 from "./assets/videos/ArMaan.mov";
 
 // Import Nightlife Images
-import RAP2488 from "./assets/images/nightlife/_RAP2488.jpg";
+import RAP2488 from "./assets/images/Nightlife/_RAP2488.jpg";
 import M9A0152 from "./assets/images/Concerts/AMS04090-2.jpg";
 import M9A0442 from "./assets/images/Concerts/MAP05555.jpg";
 import M9A1488 from "./assets/images/Concerts/MAP08126.jpg";
-import M9A1565 from "./assets/images/nightlife/0M9A1565.jpg";
-import M9A1607 from "./assets/images/nightlife/0M9A1607.jpg";
+import M9A1565 from "./assets/images/Nightlife/0M9A1565.jpg";
+import M9A1607 from "./assets/images/Nightlife/0M9A1607.jpg";
 import BismilQuakeVideo from "./assets/videos/BismilLive.mp4";
-import CreditsIG00995 from "./assets/images/nightlife/Credits- IG @echofilmerss-00995.jpg";
-import CreditsIG3356 from "./assets/images/nightlife/Credits- IG @echofilmerss-3356.jpg";
-import EchoFilmers04888 from "./assets/images/nightlife/echo filmers_-04888.jpg";
-import EchoFilmers05010 from "./assets/images/nightlife/echo filmers_-05010.jpg";
-import IGEcho0172 from "./assets/images/nightlife/IG- @Echofilmers-0172.jpg";
-import IGEcho02292 from "./assets/images/nightlife/IG- @Echofilmers-02292.jpg";
-import IGEcho3140 from "./assets/images/nightlife/IG- @Echofilmers-3140.jpg";
-import IGEcho04435 from "./assets/images/nightlife/IG- @Echofilmers-04435.jpg";
-import IGEcho04894 from "./assets/images/nightlife/IG- @Echofilmers-04894.jpg";
-import IGEcho8052 from "./assets/images/nightlife/IG- @Echofilmers-8052.jpg";
-import IGMapurohit01437 from "./assets/images/nightlife/IG- @mapurohit-01437.jpg";
-import MAP00594 from "./assets/images/nightlife/MAP00594.jpg";
-import MAP00832 from "./assets/images/nightlife/MAP00832.jpg";
-import MAP00908 from "./assets/images/nightlife/MAP00908.jpg";
-import MAP02863Enhanced from "./assets/images/nightlife/MAP02863-Enhanced-NR.jpg";
-import MAP03238 from "./assets/images/nightlife/MAP03238.jpg";
-import MAP05128Enhanced from "./assets/images/nightlife/MAP05128-Enhanced-NR.jpg";
-import MAP07877 from "./assets/images/nightlife/MAP07877.jpg";
+import CreditsIG00995 from "./assets/images/Nightlife/Credits- IG @echofilmerss-00995.jpg";
+import CreditsIG3356 from "./assets/images/Nightlife/Credits- IG @echofilmerss-3356.jpg";
+import EchoFilmers04888 from "./assets/images/Nightlife/echo filmers_-04888.jpg";
+import EchoFilmers05010 from "./assets/images/Nightlife/echo filmers_-05010.jpg";
+import IGEcho0172 from "./assets/images/Nightlife/IG- @Echofilmers-0172.jpg";
+import IGEcho02292 from "./assets/images/Nightlife/IG- @Echofilmers-02292.jpg";
+import IGEcho3140 from "./assets/images/Nightlife/IG- @Echofilmers-3140.jpg";
+import IGEcho04435 from "./assets/images/Nightlife/IG- @Echofilmers-04435.jpg";
+import IGEcho04894 from "./assets/images/Nightlife/IG- @Echofilmers-04894.jpg";
+import IGEcho8052 from "./assets/images/Nightlife/IG- @Echofilmers-8052.jpg";
+import IGMapurohit01437 from "./assets/images/Nightlife/IG- @mapurohit-01437.jpg";
+import MAP00594 from "./assets/images/Nightlife/MAP00594.jpg";
+import MAP00832 from "./assets/images/Nightlife/MAP00832.jpg";
+import MAP00908 from "./assets/images/Nightlife/MAP00908.jpg";
+import MAP02863Enhanced from "./assets/images/Nightlife/MAP02863-Enhanced-NR.jpg";
+import MAP03238 from "./assets/images/Nightlife/MAP03238.jpg";
+import MAP05128Enhanced from "./assets/images/Nightlife/MAP05128-Enhanced-NR.jpg";
+import MAP07877 from "./assets/images/Nightlife/MAP07877.jpg";
 import MAP08667 from "./assets/images/Concerts/untitled-1.jpg";
-import MAP09570 from "./assets/images/nightlife/MAP09570.jpg";
-import MAP09790 from "./assets/images/nightlife/MAP09790.jpg";
-import MAP09858 from "./assets/images/nightlife/MAP09858.jpg";
+import MAP09570 from "./assets/images/Nightlife/MAP09570.jpg";
+import MAP09790 from "./assets/images/Nightlife/MAP09790.jpg";
+import MAP09858 from "./assets/images/Nightlife/MAP09858.jpg";
 import PrateekKuhadVideo from "./assets/videos/PrateekKuhadVideo.mp4";
 import TimmyTrumpetVideo from "./assets/videos/Timmy.mp4"
 
 // Import Concert Images
-import Concert2 from "./assets/images/concerts/2.jpg";
-import Concert1721741656315 from "./assets/images/concerts/1721741656315.jpg";
-import ConcertCreditsMP8229 from "./assets/images/concerts/Credits@baricci_MP-8229.jpg";
-import ConcertCreditsSALOW from "./assets/images/concerts/credits@baricci_SA_LOW_RES-017.jpg";
-import ConcertCreditsSA44 from "./assets/images/concerts/credits@Baricci_SA-44.jpg";
-import ConcertCreditsSA48 from "./assets/images/concerts/credits@Baricci_SA-48.jpg";
-import ConcertCreditsMP08100 from "./assets/images/concerts/credits@baricci-MP-08100.jpg";
-import ConcertCreditsBarrici47 from "./assets/images/concerts/credits@barrici_SA-47.jpg";
-import ConcertDSC04569 from "./assets/images/concerts/DSC04569-3.jpg";
-import ConcertDSC06328 from "./assets/images/concerts/DSC06328-3.jpg";
-import ConcertIMG0345 from "./assets/images/concerts/IMG_0345.jpg";
-import ConcertIMG0583 from "./assets/images/concerts/IMG_0583 (1).jpg";
-import ConcertJasleenRoyal from "./assets/images/concerts/Jasleen royal.jpg";
+import Concert2 from "./assets/images/Concerts/2.jpg";
+import Concert1721741656315 from "./assets/images/Concerts/1721741656315.jpg";
+import ConcertCreditsMP8229 from "./assets/images/Concerts/Credits@baricci_MP-8229.jpg";
+import ConcertCreditsSALOW from "./assets/images/Concerts/credits@baricci_SA_LOW_RES-017.jpg";
+import ConcertCreditsSA44 from "./assets/images/Concerts/credits@Baricci_SA-44.jpg";
+import ConcertCreditsSA48 from "./assets/images/Concerts/credits@Baricci_SA-48.jpg";
+import ConcertCreditsMP08100 from "./assets/images/Concerts/credits@baricci-MP-08100.jpg";
+import ConcertCreditsBarrici47 from "./assets/images/Concerts/credits@barrici_SA-47.jpg";
+import ConcertDSC04569 from "./assets/images/Concerts/DSC04569-3.jpg";
+import ConcertDSC06328 from "./assets/images/Concerts/DSC06328-3.jpg";
+import ConcertIMG0345 from "./assets/images/Concerts/IMG_0345.jpg";
+import ConcertIMG0583 from "./assets/images/Concerts/IMG_0583 (1).jpg";
+import ConcertJasleenRoyal from "./assets/images/Concerts/Jasleen royal.jpg";
 import ConcertVIN00330 from "./assets/images/Concerts/0M9A2855.jpg";
 
 const App = () => {
@@ -121,76 +121,76 @@ const App = () => {
   // Cleaned up portfolio items - removed duplicates and repetitive images
   const portfolioItems = [
     // Start with Coldplay Images - FEATURED
-    { id: 1, category: "concerts", type: "image", src: CP1, title: "Coldplay Concert - Mumbai" },
-    { id: 2, category: "concerts", type: "image", src: CP2, title: "Coldplay Live Performance" },
-    { id: 3, category: "concerts", type: "image", src: CP3, title: "Coldplay Stage Show" },
-    { id: 4, category: "concerts", type: "image", src: CP4, title: "Coldplay Concert Photography" },
+    { id: 1, category: "Concerts", type: "image", src: CP1, title: "Coldplay Concert - Mumbai" },
+    { id: 2, category: "Concerts", type: "image", src: CP2, title: "Coldplay Live Performance" },
+    { id: 3, category: "Concerts", type: "image", src: CP3, title: "Coldplay Stage Show" },
+    { id: 4, category: "Concerts", type: "image", src: CP4, title: "Coldplay Concert Photography" },
 
     // Concert images
-    { id: 5, category: "concerts", type: "image", src: Concert2, title: "Stage Lighting" },
-    { id: 6, category: "concerts", type: "image", src: Concert1721741656315, title: "Crowd Energy" },
-    { id: 7, category: "concerts", type: "image", src: ConcertCreditsMP8229, title: "Live Performance" },
-    { id: 8, category: "concerts", type: "image", src: ConcertCreditsSALOW, title: "Concert Capture" },
+    { id: 5, category: "Concerts", type: "image", src: Concert2, title: "Stage Lighting" },
+    { id: 6, category: "Concerts", type: "image", src: Concert1721741656315, title: "Crowd Energy" },
+    { id: 7, category: "Concerts", type: "image", src: ConcertCreditsMP8229, title: "Live Performance" },
+    { id: 8, category: "Concerts", type: "image", src: ConcertCreditsSALOW, title: "Concert Capture" },
 
     // First Video - Timmy Trumpet (Reel) - after some images
-    { id: 9, category: "concerts", type: "video", src: TimmyTrumpetVideo, title: "Timmy Trumpet Performance", format: "reel" },
+    { id: 9, category: "Concerts", type: "video", src: TimmyTrumpetVideo, title: "Timmy Trumpet Performance", format: "reel" },
 
-    { id: 10, category: "concerts", type: "image", src: ConcertCreditsSA44, title: "Music Performance" },
-    { id: 11, category: "concerts", type: "image", src: ConcertCreditsSA48, title: "Live Music" },
-    { id: 12, category: "concerts", type: "image", src: ConcertCreditsMP08100, title: "Performance Art" },
-    { id: 13, category: "concerts", type: "image", src: ConcertCreditsBarrici47, title: "Stage Performance" },
-    { id: 14, category: "nightlife", type: "image", src: RAP2488, title: "Nightlife Photography" },
-    { id: 15, category: "nightlife", type: "image", src: M9A1565, title: "After Dark" },
-    { id: 16, category: "nightlife", type: "image", src: M9A1607, title: "Night Party" },
+    { id: 10, category: "Concerts", type: "image", src: ConcertCreditsSA44, title: "Music Performance" },
+    { id: 11, category: "Concerts", type: "image", src: ConcertCreditsSA48, title: "Live Music" },
+    { id: 12, category: "Concerts", type: "image", src: ConcertCreditsMP08100, title: "Performance Art" },
+    { id: 13, category: "Concerts", type: "image", src: ConcertCreditsBarrici47, title: "Stage Performance" },
+    { id: 14, category: "Nightlife", type: "image", src: RAP2488, title: "Nightlife Photography" },
+    { id: 15, category: "Nightlife", type: "image", src: M9A1565, title: "After Dark" },
+    { id: 16, category: "Nightlife", type: "image", src: M9A1607, title: "Night Party" },
 
     // Second Video - Bismil (Reel) - distributed between images
-    { id: 17, category: "nightlife", type: "video", src: BismilQuakeVideo, title: "Bismil x Quake Performance", format: "reel" },
+    { id: 17, category: "Nightlife", type: "video", src: BismilQuakeVideo, title: "Bismil x Quake Performance", format: "reel" },
 
-    { id: 18, category: "nightlife", type: "image", src: CreditsIG00995, title: "Club Photography" },
-    { id: 19, category: "nightlife", type: "image", src: CreditsIG3356, title: "Nightlife Event" },
-    { id: 20, category: "concerts", type: "image", src: ConcertDSC04569, title: "Live Event" },
-    { id: 21, category: "concerts", type: "image", src: ConcertDSC06328, title: "Concert Photography" },
-    { id: 22, category: "concerts", type: "image", src: ConcertIMG0345, title: "Music Event" },
-    { id: 23, category: "nightlife", type: "image", src: EchoFilmers04888, title: "Night Photography" },
-    { id: 24, category: "nightlife", type: "image", src: EchoFilmers05010, title: "Club Event" },
+    { id: 18, category: "Nightlife", type: "image", src: CreditsIG00995, title: "Club Photography" },
+    { id: 19, category: "Nightlife", type: "image", src: CreditsIG3356, title: "Nightlife Event" },
+    { id: 20, category: "Concerts", type: "image", src: ConcertDSC04569, title: "Live Event" },
+    { id: 21, category: "Concerts", type: "image", src: ConcertDSC06328, title: "Concert Photography" },
+    { id: 22, category: "Concerts", type: "image", src: ConcertIMG0345, title: "Music Event" },
+    { id: 23, category: "Nightlife", type: "image", src: EchoFilmers04888, title: "Night Photography" },
+    { id: 24, category: "Nightlife", type: "image", src: EchoFilmers05010, title: "Club Event" },
 
     // Third Video - Prateek Kuhad (Landscape) - more spread out
     { id: 25, category: "live-events", type: "video", src: PrateekKuhadVideo, title: "Prateek Kuhad Live", format: "landscape" },
 
-    { id: 26, category: "nightlife", type: "image", src: IGEcho0172, title: "Nightlife Capture" },
-    { id: 27, category: "nightlife", type: "image", src: IGEcho02292, title: "After Hours" },
-    { id: 28, category: "concerts", type: "image", src: ConcertIMG0583, title: "Live Performance" },
-    { id: 29, category: "concerts", type: "image", src: ConcertJasleenRoyal, title: "Jasleen Royal Concert" },
-    { id: 30, category: "concerts", type: "image", src: dvlm, title: "Music Performance" },
-    { id: 31, category: "nightlife", type: "image", src: IGEcho3140, title: "Night Photography" },
-    { id: 32, category: "nightlife", type: "image", src: IGEcho04435, title: "Club Photography" },
-    { id: 33, category: "nightlife", type: "image", src: IGEcho04894, title: "Nightlife Event" },
+    { id: 26, category: "Nightlife", type: "image", src: IGEcho0172, title: "Nightlife Capture" },
+    { id: 27, category: "Nightlife", type: "image", src: IGEcho02292, title: "After Hours" },
+    { id: 28, category: "Concerts", type: "image", src: ConcertIMG0583, title: "Live Performance" },
+    { id: 29, category: "Concerts", type: "image", src: ConcertJasleenRoyal, title: "Jasleen Royal Concert" },
+    { id: 30, category: "Concerts", type: "image", src: dvlm, title: "Music Performance" },
+    { id: 31, category: "Nightlife", type: "image", src: IGEcho3140, title: "Night Photography" },
+    { id: 32, category: "Nightlife", type: "image", src: IGEcho04435, title: "Club Photography" },
+    { id: 33, category: "Nightlife", type: "image", src: IGEcho04894, title: "Nightlife Event" },
 
     // Add duplicate images to fill gaps before Armaan's video
-    { id: 34, category: "nightlife", type: "image", src: MAP00594, title: "Nightclub" },
-    { id: 35, category: "concerts", type: "image", src: CP1, title: "Coldplay Live Energy" },
-    { id: 36, category: "nightlife", type: "image", src: MAP00832, title: "After Dark Event" },
+    { id: 34, category: "Nightlife", type: "image", src: MAP00594, title: "Nightclub" },
+    { id: 35, category: "Concerts", type: "image", src: CP1, title: "Coldplay Live Energy" },
+    { id: 36, category: "Nightlife", type: "image", src: MAP00832, title: "After Dark Event" },
 
     // Fourth Video - Armaan (Landscape) - well distributed
     { id: 37, category: "live-events", type: "video", src: corporateVideo1, title: "Armaan Corporate Event", format: "landscape" },
 
-    { id: 38, category: "concerts", type: "image", src: ConcertVIN00330, title: "Concert Event" },
-    { id: 39, category: "concerts", type: "image", src: kailash, title: "Kailash Kher Concert" },
-    { id: 40, category: "nightlife", type: "image", src: IGEcho8052, title: "Night Party" },
-    { id: 41, category: "nightlife", type: "image", src: IGMapurohit01437, title: "Night Event" },
-    { id: 42, category: "nightlife", type: "image", src: MAP00908, title: "Night Photography" },
+    { id: 38, category: "Concerts", type: "image", src: ConcertVIN00330, title: "Concert Event" },
+    { id: 39, category: "Concerts", type: "image", src: kailash, title: "Kailash Kher Concert" },
+    { id: 40, category: "Nightlife", type: "image", src: IGEcho8052, title: "Night Party" },
+    { id: 41, category: "Nightlife", type: "image", src: IGMapurohit01437, title: "Night Event" },
+    { id: 42, category: "Nightlife", type: "image", src: MAP00908, title: "Night Photography" },
 
     // Fifth Video - Anirudh (Reel) - at the end section
-    { id: 43, category: "nightlife", type: "video", src: concertVideo1, title: "Anirudh Live Performance", format: "reel" },
+    { id: 43, category: "Nightlife", type: "video", src: concertVideo1, title: "Anirudh Live Performance", format: "reel" },
 
-    { id: 44, category: "nightlife", type: "image", src: MAP02863Enhanced, title: "Club Event" },
-    { id: 45, category: "nightlife", type: "image", src: MAP03238, title: "Nightlife Photography" },
-    { id: 46, category: "nightlife", type: "image", src: MAP05128Enhanced, title: "Night life" },
-    { id: 47, category: "nightlife", type: "image", src: MAP07877, title: "Club Photography" },
-    { id: 48, category: "nightlife", type: "image", src: MAP08667, title: "Nightlife Event" },
-    { id: 49, category: "nightlife", type: "image", src: MAP09570, title: "After Hours" },
-    { id: 50, category: "nightlife", type: "image", src: MAP09790, title: "Night Party" },
-    { id: 51, category: "nightlife", type: "image", src: MAP09858, title: "Club party" },
+    { id: 44, category: "Nightlife", type: "image", src: MAP02863Enhanced, title: "Club Event" },
+    { id: 45, category: "Nightlife", type: "image", src: MAP03238, title: "Nightlife Photography" },
+    { id: 46, category: "Nightlife", type: "image", src: MAP05128Enhanced, title: "Night life" },
+    { id: 47, category: "Nightlife", type: "image", src: MAP07877, title: "Club Photography" },
+    { id: 48, category: "Nightlife", type: "image", src: MAP08667, title: "Nightlife Event" },
+    { id: 49, category: "Nightlife", type: "image", src: MAP09570, title: "After Hours" },
+    { id: 50, category: "Nightlife", type: "image", src: MAP09790, title: "Night Party" },
+    { id: 51, category: "Nightlife", type: "image", src: MAP09858, title: "Club party" },
 
     // Live Events images
     { id: 52, category: "live-events", type: "image", src: M9A0152, title: "Live Event" },
@@ -410,8 +410,8 @@ const MasonryGrid = ({ items }: { items: PortfolioItem[] }) => {
                       isFeatured ? 'bg-blue-600/80' : 'bg-black/70'
                     }`}>
                       {isFeatured ? '★ FEATURED' : 
-                       item.category === 'concerts' ? 'CONCERT' :
-                       item.category === 'nightlife' ? 'NIGHTLIFE' :
+                       item.category === 'Concerts' ? 'CONCERT' :
+                       item.category === 'Nightlife' ? 'Nightlife' :
                        item.category === 'live-events' ? 'LIVE EVENT' :
                        item.category.toUpperCase()}
                     </span>
@@ -634,7 +634,7 @@ const MasonryGrid = ({ items }: { items: PortfolioItem[] }) => {
             >
               <h2 className="text-4xl font-semibold text-white">About ECHO FILMERS</h2>
               <p className="text-gray-400 text-base leading-relaxed mb-6">
-                We specialize in capturing the energy and emotion of live events, from concerts to corporate gatherings. Using state-of-the-art equipment, we create visual stories that resonate with audiences long after the moment passes.
+                We specialize in capturing the energy and emotion of live events, from Concerts to corporate gatherings. Using state-of-the-art equipment, we create visual stories that resonate with audiences long after the moment passes.
               </p>
 
               <div className="flex flex-wrap gap-2">

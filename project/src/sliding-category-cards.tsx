@@ -7,7 +7,7 @@ import { Music, Zap, Star } from 'lucide-react';
 // Import images
 import kailash from "./assets/images/Concerts/credits_barrici@SA-04.jpg";
 import RAP2488 from "./assets/images/Concerts/untitled-1.jpg";
-import MAP00594 from "./assets/images/nightlife/MAP00594.jpg";
+import MAP00594 from "./assets/images/Nightlife/MAP00594.jpg";
 
 interface CategoryCard {
   key: string;
@@ -28,7 +28,7 @@ const SlidingCategoryCards = ({ onFilterChange, isInView }: SlidingCategoryCards
 
   const categoryCards: CategoryCard[] = [
     {
-      key: "concerts",
+      key: "Concerts",
       title: "Concerts",
       subtitle: "Music Events",
       icon: <Music className="w-6 h-6" />,
@@ -42,7 +42,7 @@ const SlidingCategoryCards = ({ onFilterChange, isInView }: SlidingCategoryCards
       image: RAP2488,
     },
     {
-      key: "nightlife",
+      key: "Nightlife",
       title: "Nightlife", 
       subtitle: "Commercial Work",
       icon: <Star className="w-6 h-6" />,
