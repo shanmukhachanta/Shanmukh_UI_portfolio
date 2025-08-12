@@ -305,49 +305,47 @@ const MasonryGrid = ({ items }: { items: PortfolioItem[] }) => {
           }
           
           // Landscape videos should break out of columns and take full width
-          if (isLandscapeVideo) {
-            return (
-              <div key={item.id} className="break-inside-avoid mb-6 w-full" style={{columnSpan: 'all'}}>
-                <div className="w-full landscape-video-container group relative overflow-hidden rounded-2xl transition-all duration-300 hover:shadow-2xl">
-                  <div className="relative aspect-video">
-                    <video
-                      src={item.src}
-                      className="w-full h-full object-cover"
-                      preload="metadata"
-                      loop
-                      muted
-                      autoPlay
-                      playsInline
-                      aria-label={item.title || `Video from ${item.category}`}
-                    />
-                    
-                    {/* Video overlay */}
-                    <div className="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition-all duration-300" />
-                    
-                    {/* Large play button for landscape videos */}
-                    <div className="absolute inset-0 flex items-center justify-center opacity-90 group-hover:opacity-100 transition-opacity duration-300">
-                      <div className="w-24 h-24 bg-black/60 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:bg-black/70 transition-all duration-300">
-                        <div className="w-0 h-0 border-l-12 border-l-white border-t-10 border-t-transparent border-b-10 border-b-transparent ml-3"></div>
-                      </div>
-                    </div>
-                    
-                    {/* Video badge */}
-                    <div className="absolute top-6 left-6 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                      <span className="px-6 py-3 text-white text-base font-medium rounded-full backdrop-blur-sm bg-red-600/80">
-                        ▶ FEATURED VIDEO
-                      </span>
-                    </div>
-                    
-                    {/* Title overlay */}
-                    <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300">
-                      <h3 className="text-white text-2xl font-medium">{item.title}</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            );
-          }
+         // In the MasonryGrid component, for landscape videos, remove this line:
+
+
+// Replace the landscape video section with this:
+// CHANGES NEEDED FOR LANDSCAPE VIDEOS (Armaan & Prateek):
+
+// 1. Remove the black overlay div in the landscape video section
+// 2. Also remove/modify the play button overlay that might be causing darkness
+
+// BEFORE (what you currently have):
+// <div className="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition-all duration-300" />
+
+// AFTER (complete landscape video section without black overlay):
+if (isLandscapeVideo) {
+  return (
+    <div key={item.id} className="break-inside-avoid mb-6 w-full" style={{columnSpan: 'all'}}>
+      <div className="w-full landscape-video-container group relative overflow-hidden rounded-2xl transition-all duration-300 hover:shadow-2xl">
+        <div className="relative aspect-video">
+          <video
+            src={item.src}
+            className="w-full h-full object-cover"
+            preload="metadata"
+            loop
+            muted
+            autoPlay
+            playsInline
+            aria-label={item.title || `Video from ${item.category}`}
+          />
           
+          {/* NO BLACK OVERLAY - REMOVED */}
+          
+    
+          
+
+          
+    
+        </div>
+      </div>
+    </div>
+  );
+}       
           return (
             <div
               key={item.id}
@@ -366,15 +364,10 @@ const MasonryGrid = ({ items }: { items: PortfolioItem[] }) => {
                     aria-label={item.title || `Video from ${item.category}`}
                   />
                   
-                  {/* Video overlay */}
-                  <div className="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition-all duration-300" />
+             
                   
-                  {/* Play button for reel videos */}
-                  <div className="absolute inset-0 flex items-center justify-center opacity-90 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="w-16 h-16 bg-black/60 rounded-full flex items-center justify-center backdrop-blur-sm group-hover:bg-black/70 transition-all duration-300">
-                      <div className="w-0 h-0 border-l-8 border-l-white border-t-6 border-t-transparent border-b-6 border-b-transparent ml-1"></div>
-                    </div>
-                  </div>
+                  
+             
                   
                   {/* Reel badge */}
                   <div className="absolute top-3 left-3 opacity-0 group-hover:opacity-100 transition-all duration-300">
@@ -687,7 +680,7 @@ const MasonryGrid = ({ items }: { items: PortfolioItem[] }) => {
               <div className="p-6 bg-white/10 rounded-lg border border-white/20 hover:bg-white/15 transition-colors duration-300">
                 <Mail className="w-6 h-6 text-white mb-3" />
                 <p className="text-gray-400 text-sm mb-1">Email us</p>
-                <p className="text-white text-base font-medium">manishpurohit4321@gmail.com</p>
+                <p className="text-white text-base font-medium">echofilmerss@gmail.com</p>
               </div>
             </motion.div>
 
