@@ -4,70 +4,70 @@ import { useState, useEffect, useRef, useMemo } from "react";
 import { Camera, Mail, Phone, Instagram} from 'lucide-react';
 import { motion, useInView } from "framer-motion";
 import SlidingCategoryCards from "./sliding-category-cards";
-import logo from "./assets/images/logo2.png";
+import logo from "./assets/Optimized/logo2.png";
 
 // Import existing images from correct folders
-import cover from "./assets/images/Concerts/Credits@baricci_MP-7985.jpg";
-import dvlm from "./assets/images/Concerts/MAP05446.jpg";
-import kailash from "./assets/images/Concerts/ka.jpg";
-import Jasleen from "./assets/images/Concerts/credits@baricci_mp--7.jpg";
-import CP1 from "./assets/images/Concerts/Credits@baricci_SA13.jpg";
-import CP2 from "./assets/images/Concerts/Credits@baricci_SA17.jpg";
-import CP3 from "./assets/images/Concerts/credits_barrici@SA-04.jpg";
-import CP4 from "./assets/images/Concerts/Credits@baricci_MP-07367.jpg";
+import cover from "./assets/Optimized/Concerts/Credits@baricci_MP-7985.webp";
+import dvlm from "./assets/Optimized/Concerts/MAP05446.webp";
+import kailash from "./assets/Optimized/Concerts/ka.webp";
+import Jasleen from "./assets/Optimized/Concerts/credits@baricci_mp--7.webp";
+import CP1 from "./assets/Optimized/Concerts/Credits@baricci_SA13.webp";
+import CP2 from "./assets/Optimized/Concerts/Credits@baricci_SA17.webp";
+import CP3 from "./assets/Optimized/Concerts/credits_barrici@SA-04.webp";
+import CP4 from "./assets/Optimized/Concerts/Credits@baricci_MP-07367.webp";
 
 // Import videos
 import concertVideo1 from "./assets/videos/Ani-Quake.mov";
 import corporateVideo1 from "./assets/videos/ArMaan.mov";
 
 // Import Nightlife Images
-import RAP2488 from "./assets/images/Nightlife/_RAP2488.jpg";
-import M9A0152 from "./assets/images/Concerts/AMS04090-2.jpg";
-import M9A0442 from "./assets/images/Concerts/MAP05555.jpg";
-import M9A1488 from "./assets/images/Concerts/MAP08126.jpg";
-import M9A1565 from "./assets/images/Nightlife/0M9A1565.jpg";
-import M9A1607 from "./assets/images/Nightlife/0M9A1607.jpg";
+import RAP2488 from "./assets/Optimized/Nightlife/_RAP2488.webp";
+import M9A0152 from "./assets/Optimized/Concerts/AMS04090-2.webp";
+import M9A0442 from "./assets/Optimized/Concerts/MAP05555.webp";
+import M9A1488 from "./assets/Optimized/Concerts/MAP08126.webp";
+import M9A1565 from "./assets/Optimized/Nightlife/0M9A1565.webp";
+import M9A1607 from "./assets/Optimized/Nightlife/0M9A1607.webp";
 import BismilQuakeVideo from "./assets/videos/BismilLive.mp4";
-import CreditsIG00995 from "./assets/images/Nightlife/Credits- IG @echofilmerss-00995.jpg";
-import CreditsIG3356 from "./assets/images/Nightlife/Credits- IG @echofilmerss-3356.jpg";
-import EchoFilmers04888 from "./assets/images/Nightlife/echo filmers_-04888.jpg";
-import EchoFilmers05010 from "./assets/images/Nightlife/echo filmers_-05010.jpg";
-import IGEcho0172 from "./assets/images/Nightlife/IG- @Echofilmers-0172.jpg";
-import IGEcho02292 from "./assets/images/Nightlife/IG- @Echofilmers-02292.jpg";
-import IGEcho3140 from "./assets/images/Nightlife/IG- @Echofilmers-3140.jpg";
-import IGEcho04435 from "./assets/images/Nightlife/IG- @Echofilmers-04435.jpg";
-import IGEcho04894 from "./assets/images/Nightlife/IG- @Echofilmers-04894.jpg";
-import IGEcho8052 from "./assets/images/Nightlife/IG- @Echofilmers-8052.jpg";
-import IGMapurohit01437 from "./assets/images/Nightlife/IG- @mapurohit-01437.jpg";
-import MAP00594 from "./assets/images/Nightlife/MAP00594.jpg";
-import MAP00832 from "./assets/images/Nightlife/MAP00832.jpg";
-import MAP00908 from "./assets/images/Nightlife/MAP00908.jpg";
-import MAP02863Enhanced from "./assets/images/Nightlife/MAP02863-Enhanced-NR.jpg";
-import MAP03238 from "./assets/images/Nightlife/MAP03238.jpg";
-import MAP05128Enhanced from "./assets/images/Nightlife/MAP05128-Enhanced-NR.jpg";
-import MAP07877 from "./assets/images/Nightlife/MAP07877.jpg";
-import MAP08667 from "./assets/images/Concerts/untitled-1.jpg";
-import MAP09570 from "./assets/images/Nightlife/MAP09570.jpg";
-import MAP09790 from "./assets/images/Nightlife/MAP09790.jpg";
-import MAP09858 from "./assets/images/Nightlife/MAP09858.jpg";
+import CreditsIG00995 from "./assets/Optimized/Nightlife/Credits- IG @echofilmerss-00995.webp";
+import CreditsIG3356 from "./assets/Optimized/Nightlife/Credits- IG @echofilmerss-3356.webp";
+import EchoFilmers04888 from "./assets/Optimized/Nightlife/echo filmers_-04888.webp";
+import EchoFilmers05010 from "./assets/Optimized/Nightlife/echo filmers_-05010.webp";
+import IGEcho0172 from "./assets/Optimized/Nightlife/IG- @Echofilmers-0172.webp";
+import IGEcho02292 from "./assets/Optimized/Nightlife/IG- @Echofilmers-02292.webp";
+import IGEcho3140 from "./assets/Optimized/Nightlife/IG- @Echofilmers-3140.webp";
+import IGEcho04435 from "./assets/Optimized/Nightlife/IG- @Echofilmers-04435.webp";
+import IGEcho04894 from "./assets/Optimized/Nightlife/IG- @Echofilmers-04894.webp";
+import IGEcho8052 from "./assets/Optimized/Nightlife/IG- @Echofilmers-8052.webp";
+import IGMapurohit01437 from "./assets/Optimized/Nightlife/IG- @mapurohit-01437.webp";
+import MAP00594 from "./assets/Optimized/Nightlife/MAP00594.webp";
+import MAP00832 from "./assets/Optimized/Nightlife/MAP00832.webp";
+import MAP00908 from "./assets/Optimized/Nightlife/MAP00908.webp";
+import MAP02863Enhanced from "./assets/Optimized/Nightlife/MAP02863-Enhanced-NR.webp";
+import MAP03238 from "./assets/Optimized/Nightlife/MAP03238.webp";
+import MAP05128Enhanced from "./assets/Optimized/Nightlife/MAP05128-Enhanced-NR.webp";
+import MAP07877 from "./assets/Optimized/Nightlife/MAP07877.webp";
+import MAP08667 from "./assets/Optimized/Concerts/untitled-1.webp";
+import MAP09570 from "./assets/Optimized/Nightlife/MAP09570.webp";
+import MAP09790 from "./assets/Optimized/Nightlife/MAP09790.webp";
+import MAP09858 from "./assets/Optimized/Nightlife/MAP09858.webp";
 import PrateekKuhadVideo from "./assets/videos/PrateekKuhadVideo.mp4";
 import TimmyTrumpetVideo from "./assets/videos/Timmy.mp4"
 
 // Import Concert Images
-import Concert2 from "./assets/images/Concerts/2.jpg";
-import Concert1721741656315 from "./assets/images/Concerts/1721741656315.jpg";
-import ConcertCreditsMP8229 from "./assets/images/Concerts/Credits@baricci_MP-8229.jpg";
-import ConcertCreditsSALOW from "./assets/images/Concerts/credits@baricci_SA_LOW_RES-017.jpg";
-import ConcertCreditsSA44 from "./assets/images/Concerts/credits@Baricci_SA-44.jpg";
-import ConcertCreditsSA48 from "./assets/images/Concerts/credits@Baricci_SA-48.jpg";
-import ConcertCreditsMP08100 from "./assets/images/Concerts/credits@baricci-MP-08100.jpg";
-import ConcertCreditsBarrici47 from "./assets/images/Concerts/credits@barrici_SA-47.jpg";
-import ConcertDSC04569 from "./assets/images/Concerts/DSC04569-3.jpg";
-import ConcertDSC06328 from "./assets/images/Concerts/DSC06328-3.jpg";
-import ConcertIMG0345 from "./assets/images/Concerts/IMG_0345.jpg";
-import ConcertIMG0583 from "./assets/images/Concerts/IMG_0583 (1).jpg";
-import ConcertJasleenRoyal from "./assets/images/Concerts/Jasleen royal.jpg";
-import ConcertVIN00330 from "./assets/images/Concerts/0M9A2855.jpg";
+import Concert2 from "./assets/Optimized/Concerts/2.webp";
+import Concert1721741656315 from "./assets/Optimized/Concerts/1721741656315.webp";
+import ConcertCreditsMP8229 from "./assets/Optimized/Concerts/Credits@baricci_MP-8229.webp";
+import ConcertCreditsSALOW from "./assets/Optimized/Concerts/credits@baricci_SA_LOW_RES-017.webp";
+import ConcertCreditsSA44 from "./assets/Optimized/Concerts/credits@Baricci_SA-44.webp";
+import ConcertCreditsSA48 from "./assets/Optimized/Concerts/credits@Baricci_SA-48.webp";
+import ConcertCreditsMP08100 from "./assets/Optimized/Concerts/credits@baricci-MP-08100.webp";
+import ConcertCreditsBarrici47 from "./assets/Optimized/Concerts/credits@barrici_SA-47.webp";
+import ConcertDSC04569 from "./assets/Optimized/Concerts/DSC04569-3.webp";
+import ConcertDSC06328 from "./assets/Optimized/Concerts/DSC06328-3.webp";
+import ConcertIMG0345 from "./assets/Optimized/Concerts/IMG_0345.webp";
+import ConcertIMG0583 from "./assets/Optimized/Concerts/IMG_0583 (1).webp";
+import ConcertJasleenRoyal from "./assets/Optimized/Concerts/Jasleen royal.webp";
+import ConcertVIN00330 from "./assets/Optimized/Concerts/0M9A2855.webp";
 
 const App = () => {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -81,21 +81,21 @@ const App = () => {
 
   // Featured images that should get special treatment (larger size)
   const featuredImages = [
-    "Credits@baricci_SA13.jpg", // CP1
-    "Credits@baricci_SA17.jpg", // CP2  
-    "Credits@baricci_MP-07367.jpg", // CP4
-    "Credits@baricci_MP-7985.jpg",
-    "0M9A2855.jpg",
-    "MAP05555.jpg",
-    "AMS04090-2.jpg",
-    "credits@baricci_mp--7.jpg",
-    "Jasleen royal.jpg",
-    "MAP05446.jpg"
+    "Credits@baricci_SA13.webp", // CP1
+    "Credits@baricci_SA17.webp", // CP2  
+    "Credits@baricci_MP-07367.webp", // CP4
+    "Credits@baricci_MP-7985.webp",
+    "0M9A2855.webp",
+    "MAP05555.webp",
+    "AMS04090-2.webp",
+    "credits@baricci_mp--7.webp",
+    "Jasleen royal.webp",
+    "MAP05446.webp"
   ];
 
   // Full-width images that should span entire row like landscape videos
   const fullWidthImages = [
-    "Credits@baricci_MP-8229.jpg", // ConcertCreditsMP8229 only
+    "Credits@baricci_MP-8229.webp", // ConcertCreditsMP8229 only
   ];
 
   // Function to check if an image should be full width

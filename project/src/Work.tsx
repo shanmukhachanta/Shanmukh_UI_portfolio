@@ -1,23 +1,23 @@
 
 
 // Consistent imports with App.tsx
-import restAll from "../../credits@baricci_SA_LOW_RES-017.jpg";
-import cover from "../../Credits@baricci_MP-8229.jpg";
-import Cp from "../../cpg.jpg";
-import CP2 from "../../credits@Baricci_SA (1).jpg";
-import dvlm from "../../MAP05446.jpg";
-import kailash from "../../ka.jpg";
-import HKA from "../../Diljit.jpg";
-import Jasleen from "../../credits@baricci_mp--7.jpg";
+import restAll from "../../credits@baricci_SA_LOW_RES-017.webp";
+import cover from "../../Credits@baricci_MP-8229.webp";
+import Cp from "../../cpg.webp";
+import CP2 from "../../credits@Baricci_SA (1).webp";
+import dvlm from "../../MAP05446.webp";
+import kailash from "../../ka.webp";
+import HKA from "../../Diljit.webp";
+import Jasleen from "../../credits@baricci_mp--7.webp";
 
 // Additional images from original Work.tsx
-import hk from "../../VIN09998.jpg";
-import jl from "../../_1.jpg";
-import t from "../../1721741656315.jpg";
-import sb from "../../DSC06328-3.jpg";
-import ka from "../../VIN00330.jpg";
-import dsc from "../../DSC04569-3.jpg";
-import hs from "../../KFxHS_B2-17.jpg"
+import hk from "../../VIN09998.webp";
+import jl from "../../_1.webp";
+import t from "../../1721741656315.webp";
+import sb from "../../DSC06328-3.webp";
+import ka from "../../VIN00330.webp";
+import dsc from "../../DSC04569-3.webp";
+import hs from "../../KFxHS_B2-17.webp"
 
 const Work = () => {
   // Add padding-top to push content below the fixed navbar
