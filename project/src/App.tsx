@@ -7,7 +7,7 @@ import SlidingCategoryCards from "./sliding-category-cards";
 import logo from "./assets/optimized/logo2.webp";
 
 // Import existing images from correct folders
-import cover from "./assets/optimized/Concerts/Credits@baricci_MP-7985.webp";
+import cover from "./assets/images/Concerts/Credits@baricci_MP-7985.jpg";
 import dvlm from "./assets/optimized/Concerts/MAP05446.webp";
 import kailash from "./assets/optimized/Concerts/ka.webp";
 import Jasleen from "./assets/optimized/Concerts/credits@baricci_mp--7.webp";
