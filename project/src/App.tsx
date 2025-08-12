@@ -7,7 +7,7 @@ import SlidingCategoryCards from "./sliding-category-cards";
 import logo from "./assets/optimized/logo2.webp";
 
 // Import existing images from correct folders
-import cover from "./assets/images/Concerts/Credits@baricci_MP-7985.jpg";
+import cover from "./assets/images/Concerts/Credits@baricci_MP-8229.jpg";
 import dvlm from "./assets/optimized/Concerts/MAP05446.webp";
 import kailash from "./assets/optimized/Concerts/ka.webp";
 import Jasleen from "./assets/optimized/Concerts/credits@baricci_mp--7.webp";
@@ -56,7 +56,7 @@ import TimmyTrumpetVideo from "./assets/videos/Timmy.mp4"
 // Import Concert Images
 import Concert2 from "./assets/optimized/Concerts/2.webp";
 import Concert1721741656315 from "./assets/optimized/Concerts/1721741656315.webp";
-import ConcertCreditsMP8229 from "./assets/optimized/Concerts/Credits@baricci_MP-8229.webp";
+import ConcertCreditsMP8229 from "./assets/optimized/Concerts/Credits@baricci_MP-7985.jpg";
 import ConcertCreditsSALOW from "./assets/optimized/Concerts/credits@baricci_SA_LOW_RES-017.webp";
 import ConcertCreditsSA44 from "./assets/optimized/Concerts/credits@Baricci_SA-44.webp";
 import ConcertCreditsSA48 from "./assets/optimized/Concerts/credits@Baricci_SA-48.webp";
