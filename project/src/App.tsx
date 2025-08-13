@@ -5,6 +5,7 @@ import { Camera, Mail, Phone, Instagram } from "lucide-react"
 import { motion, useInView } from "framer-motion"
 import SlidingCategoryCards from "./sliding-category-cards"
 import logo from "./assets/optimized/logo2.webp"
+import { Analytics } from '@vercel/analytics/next';
 
 // Import existing images from correct folders
 import cover from "./assets/images/Concerts/Credits@baricci_MP-8229.jpg"
@@ -718,6 +719,7 @@ const App = () => {
           <p className="text-gray-500 text-sm">&copy; 2025 ECHO FILMERS. All rights reserved.</p>
         </div>
       </footer>
+      <Analytics/>
     </div>
   )
 }
